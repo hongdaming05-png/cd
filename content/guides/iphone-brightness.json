@@ -1,0 +1,16 @@
+{
+  "id": "iphone-brightness", "revision": 1,
+  "title": "把 iPhone 螢幕調亮", "summary": "螢幕太暗時，調到眼睛舒服的亮度。",
+  "platform": "ios", "app": "iphone", "icon": "light_mode", "estimated_minutes": 2,
+  "version_note": "依 Apple iPhone 使用手冊整理；尚未完成實機驗證。其他版本的名稱或位置可能不同。",
+  "aliases": ["螢幕太暗", "手機太黑", "螢幕亮度", "調亮", "亮一點", "螢幕變亮", "brightness"],
+  "prerequisites": ["準備好已解鎖的 iPhone。", "把手機放在平常使用的位置，方便判斷亮度。"],
+  "outcome": "看看螢幕，調到能看清楚又不刺眼的亮度就可以。",
+  "sources": [{"title": "Apple：在 iPhone 上調整螢幕亮度和色彩", "url": "https://support.apple.com/zh-tw/guide/iphone/iph60ba71065/ios", "checked_at": "2026-09-12"}],
+  "steps": [
+    {"title": "打開「設定」", "instruction": "在 iPhone 主畫面，點一下灰色齒輪圖案的「設定」。", "hint": "先找到主畫面上標示「設定」的圖案。如果找不到，可以請身邊的人一起看。", "checkpoint": "你看到「設定」的清單了嗎？", "illustration": {"screen": "iPhone 主畫面", "target": "設定", "kind": "app", "rows": []}},
+    {"title": "找到「螢幕顯示與亮度」", "instruction": "點一下設定清單裡的「螢幕顯示與亮度」。", "hint": "如果沒看到，手指在清單上往上滑，看看更下面的項目。", "checkpoint": "你進入「螢幕顯示與亮度」這頁了嗎？", "illustration": {"screen": "設定", "target": "螢幕顯示與亮度", "rows": ["一般", "輔助使用", "螢幕顯示與亮度"]}},
+    {"title": "把亮度往右調一點", "instruction": "找到亮度滑桿，按住圓點往右移，調到你看得舒服的位置。", "hint": "亮度滑桿旁通常有太陽圖案。往右會變亮，覺得刺眼就稍微往左。不需要拉到最亮。", "checkpoint": "現在螢幕比較清楚，而且不刺眼了嗎？", "illustration": {"screen": "螢幕顯示與亮度", "target": "往右拖，調亮螢幕", "kind": "slider", "rows": []}}
+  ],
+  "faqs": [{"question": "為什麼亮度會自己改變？", "answer": "iPhone 可以依環境光線自動調整亮度，所以亮度可能隨環境改變。這份教學只帶你手動調整目前的亮度。"}]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "iphone-bold-text", "revision": 1,
+  "title": "讓 iPhone 的字更清楚", "summary": "把文字加粗，字的筆畫更容易看見。",
+  "platform": "ios", "app": "iphone", "icon": "format_bold", "estimated_minutes": 2,
+  "version_note": "依 Apple iOS 26 使用手冊整理；尚未完成實機驗證。其他版本的名稱或位置可能不同。",
+  "aliases": ["粗體文字", "字太細", "字加粗", "筆畫清楚", "字變粗", "bold text"],
+  "prerequisites": ["準備好已解鎖的 iPhone。", "這份教學會調整文字的粗細。"],
+  "outcome": "看看設定頁面的字，確認筆畫加粗後是否更容易閱讀。",
+  "sources": [{"title": "Apple：調整 iPhone 顯示與文字設定", "url": "https://support.apple.com/zh-tw/guide/iphone/-iphd6804774e/ios", "checked_at": "2026-09-12"}],
+  "steps": [
+    {"title": "打開「設定」", "instruction": "在 iPhone 主畫面，點一下灰色齒輪圖案的「設定」。", "hint": "請先回到手機主畫面，找到標示「設定」的圖案。", "checkpoint": "你看到「設定」的清單了嗎？", "illustration": {"screen": "iPhone 主畫面", "target": "設定", "kind": "app", "rows": []}},
+    {"title": "找到「螢幕顯示與亮度」", "instruction": "點一下設定清單裡的「螢幕顯示與亮度」。", "hint": "如果暫時看不到，用手指在清單上往上滑，看看下面的項目。", "checkpoint": "你看到「螢幕顯示與亮度」這一頁了嗎？", "illustration": {"screen": "設定", "target": "螢幕顯示與亮度", "rows": ["一般", "輔助使用", "螢幕顯示與亮度"]}},
+    {"title": "開啟「粗體文字」", "instruction": "找到「粗體文字」，點一下旁邊的開關，把它打開。已經開啟就保持原樣。", "hint": "一般開啟時，開關圓點會在右邊。若畫面與教學不同，先請身邊的人確認，避免反覆切換。", "checkpoint": "看一下字的筆畫，現在是否比較清楚？", "illustration": {"screen": "螢幕顯示與亮度", "target": "粗體文字", "kind": "toggle", "rows": []}}
+  ],
+  "faqs": [{"question": "不喜歡粗體可以關掉嗎？", "answer": "可以。在「螢幕顯示與亮度」找到「粗體文字」，把同一個開關關閉即可。"}]
+}

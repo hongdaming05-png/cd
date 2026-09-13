@@ -1,0 +1,23 @@
+{
+  "id": "line-text-size-ios", "revision": 1,
+  "title": "LINE 聊天的字放大", "summary": "家人傳來的訊息，放大後慢慢看。",
+  "platform": "ios", "app": "line", "icon": "chat_bubble_outline", "estimated_minutes": 3,
+  "version_note": "適用於 iPhone 上的 LINE 主要裝置；依 LINE 官方說明整理，尚未完成特定版本實機驗證。",
+  "aliases": ["LINE 字太小", "賴的字放大", "聊天字體大小", "LINE 訊息看不清楚", "line字變大", "LINE 字體大一點", "LINE 字體放大"],
+  "prerequisites": ["準備好已登入 LINE 的 iPhone。", "若用同一支手機看教學，做完一個動作後再回到這裡。"],
+  "outcome": "回到原來的聊天室，看看家人傳來的文字是否變得更容易閱讀。",
+  "sources": [{"title": "LINE：聊天室背景及顯示設定的變更方法", "url": "https://help.line.me/line/smartphone?contentId=20005811&lang=zh-Hant", "checked_at": "2026-09-12"}],
+  "steps": [
+    {"title": "先打開 LINE", "instruction": "在手機主畫面，點一下綠色的 LINE 圖案。", "hint": "請找寫著 LINE 的綠色圖案。如果還沒登入，先請家人協助登入後，再開始這份教學。", "checkpoint": "LINE 已經打開了嗎？", "illustration": {"screen": "iPhone 主畫面", "target": "LINE", "kind": "app", "rows": []}},
+    {"title": "切到 LINE「主頁」", "instruction": "在 LINE 裡，點一下「主頁」。", "hint": "請找小房子圖案和「主頁」文字。如果你在聊天室裡，先回到 LINE 的主要畫面，再找主頁。", "checkpoint": "現在是 LINE 的「主頁」嗎？", "illustration": {"screen": "LINE", "target": "主頁", "rows": ["主頁", "聊天"]}},
+    {"title": "找到齒輪「設定」", "instruction": "在 LINE 主頁，點一下齒輪圖案的「設定」。", "hint": "請找主頁上的齒輪圖案。這次要找的是 LINE 裡面的設定。畫面位置可能因版本不同而改變。", "checkpoint": "你看到 LINE 的設定清單了嗎？", "illustration": {"screen": "LINE 主頁", "target": "設定", "rows": ["設定"]}},
+    {"title": "點一下「聊天」", "instruction": "在 LINE 設定清單中，點一下「聊天」。", "hint": "如果清單很長，用手指慢慢往上滑，尋找「聊天」這兩個字。", "checkpoint": "你進入「聊天」設定這一頁了嗎？", "illustration": {"screen": "LINE 設定", "target": "聊天", "rows": ["聊天"]}},
+    {"title": "找到「字體大小」", "instruction": "點一下「字體大小」。", "hint": "先確認你在 LINE 的「聊天」設定頁。這裡找的是「字體大小」，可以改變聊天室文字的大小。", "checkpoint": "你看到字體大小的選項了嗎？", "illustration": {"screen": "聊天", "target": "字體大小", "rows": ["字體大小"]}},
+    {"title": "先確認「按照 iPhone 設定」", "instruction": "如果「按照 iPhone 設定」已開啟，先關閉它，才能另外選 LINE 的字體大小。已關閉就保持原樣。", "hint": "如果你沒有看到這個選項，但已經可以選「小、中、大、特大」，可以直接完成這一步。若兩者都沒有，先停下來確認版本。", "checkpoint": "現在可以選擇 LINE 的字體大小了嗎？", "illustration": {"screen": "字體大小", "target": "按照 iPhone 設定：關閉", "kind": "toggle", "rows": []}},
+    {"title": "選「大」或「特大」", "instruction": "點一下「大」或「特大」，選你讀起來最舒服的大小。", "hint": "想先試試看，可以選「大」。回到聊天室覺得還太小，再回到這裡選「特大」。", "checkpoint": "回到聊天室看看，現在訊息的字比較好讀了嗎？", "illustration": {"screen": "字體大小", "target": "特大", "kind": "choice", "rows": ["小", "中", "大", "特大"]}}
+  ],
+  "faqs": [
+    {"question": "按照 iPhone 設定是什麼意思？", "answer": "開啟「按照 iPhone 設定」，LINE 會採用手機本身的字體大小設定。想在 LINE 單獨選擇大小，請先關閉這個選項。"},
+    {"question": "太大可以改回來嗎？", "answer": "可以。在同一個「字體大小」畫面，改選「中」或「小」，再回聊天室看看是否適合。"}
+  ]
+}

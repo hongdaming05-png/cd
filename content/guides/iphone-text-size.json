@@ -1,0 +1,98 @@
+{
+  "id": "iphone-text-size",
+  "revision": 1,
+  "title": "iPhone 的字放大一點",
+  "summary": "看訊息、找設定，讓手機上的字更好讀。",
+  "platform": "ios",
+  "app": "iphone",
+  "icon": "text_fields",
+  "estimated_minutes": 2,
+  "version_note": "依 Apple iOS 26 使用手冊整理；尚未完成實機驗證。其他版本的名稱或位置可能不同。",
+  "aliases": [
+    "字太小",
+    "字體大小",
+    "字看不清楚",
+    "手機字放大",
+    "字變大",
+    "老花看不清",
+    "font size",
+    "字體放大"
+  ],
+  "prerequisites": [
+    "準備好已解鎖的 iPhone。",
+    "若用同一支手機看教學，每做完一個動作，再回到這裡。"
+  ],
+  "outcome": "回到常用的 App，看看文字是否比較好讀。支援系統文字大小的 App 才會跟著調整。",
+  "sources": [
+    {
+      "title": "Apple：調整 iPhone 顯示與文字設定",
+      "url": "https://support.apple.com/zh-tw/guide/iphone/-iphd6804774e/ios",
+      "checked_at": "2026-09-12"
+    }
+  ],
+  "steps": [
+    {
+      "title": "打開「設定」",
+      "instruction": "在 iPhone 主畫面，點一下灰色齒輪圖案的「設定」。",
+      "hint": "請先回到手機主畫面，慢慢找標示「設定」的圖案。如果畫面不同，先停在這一步，請身邊的人一起找。",
+      "checkpoint": "你看到上方寫著「設定」的畫面了嗎？",
+      "illustration": {
+        "screen": "iPhone 主畫面",
+        "target": "設定",
+        "kind": "app",
+        "rows": []
+      }
+    },
+    {
+      "title": "找到「螢幕顯示與亮度」",
+      "instruction": "在設定清單裡，點一下「螢幕顯示與亮度」。",
+      "hint": "這個選項可能在下面。用手指在清單上輕輕往上滑，讓下面的項目出現，再慢慢找。",
+      "checkpoint": "你看到「螢幕顯示與亮度」這一頁了嗎？",
+      "illustration": {
+        "screen": "設定",
+        "target": "螢幕顯示與亮度",
+        "rows": [
+          "一般",
+          "輔助使用",
+          "螢幕顯示與亮度"
+        ]
+      }
+    },
+    {
+      "title": "點一下「文字大小」",
+      "instruction": "找到「文字大小」，點一下。",
+      "hint": "先確認你在「螢幕顯示與亮度」這頁。如果沒看到「文字大小」，輕輕往上滑，看看下面的項目。",
+      "checkpoint": "你看到一段範例文字和可以左右拖動的滑桿了嗎？",
+      "illustration": {
+        "screen": "螢幕顯示與亮度",
+        "target": "文字大小",
+        "rows": [
+          "文字大小",
+          "粗體文字"
+        ]
+      }
+    },
+    {
+      "title": "慢慢往右，字就變大",
+      "instruction": "把文字大小的滑桿往右拖一點，停在你看得舒服的大小。",
+      "hint": "滑桿是可以左右移動的圓點。手指碰住圓點，慢慢往右移；覺得太大，就往左移一點。",
+      "checkpoint": "看看上面的範例文字，現在比較容易看清楚了嗎？",
+      "illustration": {
+        "screen": "文字大小",
+        "target": "往右拖，放大文字",
+        "kind": "slider",
+        "rows": []
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "調整後每個 App 的字都會變大嗎？",
+      "answer": "只有支援系統文字大小的 App 會跟著調整。LINE 聊天文字可以另外用「LINE 聊天的字放大」這份教學調整。"
+    },
+    {
+      "question": "字變得太大，怎麼改回來？",
+      "answer": "在同一個「文字大小」畫面，把滑桿往左拖一點，就能縮小。"
+    }
+  ]
+}
